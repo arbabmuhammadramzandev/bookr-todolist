@@ -1,0 +1,77 @@
+{
+  "name": "bookr-test",
+  "version": "1.0.0",
+  "description": "Bookr.co Todo List Test",
+  "author": {
+    "name": "Arbab Muhammad Ramzan",
+    "email": "helloamramzan@gmail.com"
+  },
+  "private": true,
+  "keywords": [
+    "react",
+    "typescript",
+    "material",
+    "material ui"
+  ],
+  "dependencies": {
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/styles": "latest",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@types/react-beautiful-dnd": "^13.1.2",
+    "@types/uuid": "^8.3.4",
+    "axios": "^0.27.2",
+    "date-fns": "latest",
+    "react": "latest",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "latest",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "typescript": "latest",
+    "uuid": "^9.0.0",
+    "validate.js": "latest",
+    "web-vitals": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "prettier": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "yarn -s && react-scripts start",
+    "build": "react-scripts build",
+    "type": "tsc",
+    "format": "node_modules/.bin/prettier src --write",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
